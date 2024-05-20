@@ -39,18 +39,21 @@ Update the dvc.yaml
 
 # Mlflow dagshub connection uri
 
-MLFLOW_TRACKING_URI=https://dagshub.com/nehatiwaribt/MLFLOW_Experiments.mlflow \
+MLFLOW_TRACKING_URI=https://dagshub.com/nehatiwaribt/Chest_Disease_Classification_Using_CT_Scan.mlflow \
 MLFLOW_TRACKING_USERNAME=nehatiwaribt \
 MLFLOW_TRACKING_PASSWORD=69b7eff71c84adf740ce4cb88a58db53c7182365 \
 python script.py
 
 ## RUN from bash terminal
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/nehatiwaribt/MLFLOW_Experiments.mlflow 
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/nehatiwaribt/Chest_Disease_Classification_Using_CT_Scan.mlflow
 
 export MLFLOW_TRACKING_USERNAME=nehatiwaribt 
 
-export MLFLOW_TRACKING_PASSWORD=69b7eff71c84adf740ce4cb88a58db53c7182365
+export MLFLOW_TRACKING_PASSWORD=69b7eff71c84adf740ce4cb88a58db53c7182365 \
+
+```
 
 ## DVC cmd
 
