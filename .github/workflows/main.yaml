@@ -1,7 +1,11 @@
 name: Trigger Jenkins Job
 
+'''on: # for manual job trigger
+  workflow_dispatch:'''
+
 on:
-  workflow_dispatch:
+  push:
+    branches: [main]
     
 jobs:
   trigger:
