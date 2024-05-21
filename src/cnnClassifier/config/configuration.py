@@ -2,7 +2,7 @@ import os
 from cnnClassifier.constants import *
 from cnnClassifier.utils.common import read_yaml, create_directories
 from cnnClassifier.entity.config_entity import (DataIngestionConfig,
-                                               PrepareBaseModelConfig,
+                                                PrepareBaseModelConfig,
                                                 TrainingConfig,
                                                 EvaluationConfig)
 
@@ -55,6 +55,8 @@ class ConfigurationManager:
         return prepare_base_model_config
     
 
+
+
     def get_training_config(self) -> TrainingConfig:
         training = self.config.training
         prepare_base_model = self.config.prepare_base_model
@@ -77,6 +79,7 @@ class ConfigurationManager:
 
         return training_config
     
+
 
     def get_evaluation_config(self) -> EvaluationConfig:
         eval_config = EvaluationConfig(

@@ -18,9 +18,10 @@ except Exception as e:
     raise e
 
 
+
+
+
 STAGE_NAME = "Prepare base model"
-
-
 try: 
    logger.info(f"*******************")
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
@@ -32,9 +33,9 @@ except Exception as e:
         raise e
 
 
+
+
 STAGE_NAME = "Training"
-
-
 try: 
    logger.info(f"*******************")
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
@@ -46,9 +47,9 @@ except Exception as e:
         raise e
 
 
+
+
 STAGE_NAME = "Evaluation stage"
-
-
 try:
    logger.info(f"*******************")
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
@@ -59,3 +60,5 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+
+

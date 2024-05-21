@@ -84,3 +84,4 @@ class Training:
             path=self.config.trained_model_path,
             model=self.model
         )
+
