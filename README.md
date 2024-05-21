@@ -1,6 +1,5 @@
 # Chest-Disease-Classification-from-Chest-CT-Scan-Image
 
- - [Data link](https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing)
 
 ## Workflows
 
@@ -14,10 +13,6 @@
 8. Update the dvc.yaml 
 
 
-
-## Live matarials docs
-
-[link](https://docs.google.com/document/d/1UFiHnyKRqgx8Lodsvdzu58LbVjdWHNf-uab2WmhE0A4/edit?usp=sharing)
 
 
 ## Git commands
@@ -51,9 +46,9 @@ python app.py
 ### Mlflow dagshub connection uri
 
 ```bash
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=https://dagshub.com/nehatiwaribt/Chest_Disease_Classification_Using_CT_Scan.mlflow\
+MLFLOW_TRACKING_USERNAME=nehatiwaribt \
+MLFLOW_TRACKING_PASSWORD=69b7eff71c84adf740ce4cb88a58db53c7182365   \
 python script.py
 ```
 
@@ -61,11 +56,11 @@ python script.py
 ### RUN from bash terminal
 
 ```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/nehatiwaribt/Chest_Disease_Classification_Using_CT_Scan.mlflow
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=nehtiwaribt 
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=69b7eff71c84adf740ce4cb88a58db53c7182365  
 
 ```
 
